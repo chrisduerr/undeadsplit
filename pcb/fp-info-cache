@@ -1,4 +1,4 @@
-24426922843293954
+24426961294003114
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98624,7 +98624,7 @@ Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 
 2
 footprints
 joycon_joystick
-Molex FFC & FPC connector, 05 top-side contacts, 0.5mm pitch, SMT, https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/512/51281/512810598_sd.pdf
+Molex FFC & FPC connector, 05 top-side contacts, 0.5mm pitch, SMT, https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2210261730_HCTL-HC-FPC-05-09-5RLTAG_C5213747.pdf
 molex ffc fpc 51281-0598
 0
 7

@@ -960,6 +960,184 @@
 				)
 			)
 		)
+		(symbol "JOYCON_JOYSTICK_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JOY"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Part #" "C5213747"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "JOYCON_JOYSTICK_1_1_1"
+				(rectangle
+					(start -6.35 6.35)
+					(end 6.35 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 8.89 5.08 180)
+					(length 2.54)
+					(name "X_AXIS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 0 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -2.54 180)
+					(length 2.54)
+					(name "Y_AXIS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -5.08 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -8.89 90)
+					(length 2.54)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_names
 				(offset 0) hide)
@@ -9569,7 +9747,7 @@
 	(text_box "Extra Hardware"
 		(exclude_from_sim no)
 		(at 406.4 95.25 0)
-		(size 63.5 50.8)
+		(size 63.5 69.85)
 		(stroke
 			(width 0)
 			(type default)
@@ -9778,7 +9956,7 @@
 	(text_box "Extra Hardware"
 		(exclude_from_sim no)
 		(at 406.4 273.05 0)
-		(size 63.5 50.8)
+		(size 63.5 69.85)
 		(stroke
 			(width 0)
 			(type default)
@@ -11742,9 +11920,9 @@
 		(at 234.95 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "001244f9-da3e-45b1-a4c7-d8d41f2c708a")
 		(property "Reference" "JP1"
 			(at 234.95 185.42 0)
@@ -11809,9 +11987,9 @@
 		(at 299.72 306.07 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00487a2d-5909-40ca-aa69-e61439221a24")
 		(property "Reference" "SW43"
 			(at 293.37 304.8 90)
@@ -11878,9 +12056,9 @@
 		(at 363.22 262.89 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00da6381-ca64-4054-8141-b6203fab8ea6")
 		(property "Reference" "SW36"
 			(at 356.87 261.62 90)
@@ -12066,6 +12244,70 @@
 			(project "undead_split_v2"
 				(path "/e4506e6a-c600-4395-b1e6-5268fdabb240"
 					(reference "MB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 419.1 323.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03f2ecc7-2878-4e95-aa9e-3ac94cd7d1e0")
+		(property "Reference" "H13"
+			(at 421.64 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ToolingHole"
+			(at 421.64 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:tooling_hole"
+			(at 419.1 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 419.1 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 419.1 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "undead_split"
+				(path "/e4506e6a-c600-4395-b1e6-5268fdabb240"
+					(reference "H13")
 					(unit 1)
 				)
 			)
@@ -12603,9 +12845,9 @@
 		(at 337.82 306.07 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "10b870e1-d85c-48ac-9299-7b7c961aa89a")
 		(property "Reference" "SW46"
 			(at 331.47 304.8 90)
@@ -12730,13 +12972,77 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 325.12 306.07 270)
+		(lib_id "Mechanical:MountingHole")
+		(at 419.1 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "142a5232-662c-41ff-bec2-0cdac6a5861f")
+		(property "Reference" "H9"
+			(at 421.64 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ToolingHole"
+			(at 421.64 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:tooling_hole"
+			(at 419.1 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 419.1 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 419.1 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "undead_split"
+				(path "/e4506e6a-c600-4395-b1e6-5268fdabb240"
+					(reference "H9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 325.12 306.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
 		(uuid "14c11d42-883e-4cd2-949d-05a5c99e1cfa")
 		(property "Reference" "SW45"
 			(at 318.77 304.8 90)
@@ -12803,9 +13109,9 @@
 		(at 312.42 284.48 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "14e5ced1-3a7e-468b-ab9f-27c58791c6b9")
 		(property "Reference" "SW38"
 			(at 306.07 283.21 90)
@@ -13177,9 +13483,9 @@
 		(at 325.12 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "19d8ed80-2f0a-40c3-837d-f5d2dcd67a14")
 		(property "Reference" "SW3"
 			(at 318.77 83.82 90)
@@ -13378,9 +13684,9 @@
 		(at 363.22 172.72 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1ab885e5-cb20-4203-a004-43042a919fb7")
 		(property "Reference" "SW30"
 			(at 356.87 171.45 90)
@@ -13514,9 +13820,9 @@
 		(at 350.52 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1f396e46-3f4e-4d33-bf85-7cec9d4b2974")
 		(property "Reference" "SW5"
 			(at 344.17 83.82 90)
@@ -13823,9 +14129,9 @@
 		(at 234.95 370.84 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "22ca19cc-133e-4752-a135-1ce77b7bf591")
 		(property "Reference" "R8"
 			(at 234.95 368.3 90)
@@ -14224,9 +14530,9 @@
 		(at 325.12 284.48 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "272af475-9d28-4ee7-8e6f-9c837321f755")
 		(property "Reference" "SW39"
 			(at 318.77 283.21 90)
@@ -14455,9 +14761,9 @@
 		(at 350.52 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "29bcaa4d-c486-486c-8a7e-06dbd7a29566")
 		(property "Reference" "SW11"
 			(at 344.17 105.41 90)
@@ -14816,13 +15122,77 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 350.52 149.86 270)
+		(lib_id "Mechanical:MountingHole")
+		(at 419.1 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2bf69725-fdd8-4719-891f-c01db145d4cb")
+		(property "Reference" "H11"
+			(at 421.64 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ToolingHole"
+			(at 421.64 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:tooling_hole"
+			(at 419.1 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 419.1 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 419.1 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "undead_split"
+				(path "/e4506e6a-c600-4395-b1e6-5268fdabb240"
+					(reference "H11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 350.52 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
 		(uuid "2fd1d99e-822a-4064-8b9c-e65d99b4f70e")
 		(property "Reference" "SW23"
 			(at 344.17 148.59 90)
@@ -14985,9 +15355,9 @@
 		(at 337.82 262.89 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "33a8219f-2f5d-4b1c-abc2-7c4358cd3564")
 		(property "Reference" "SW34"
 			(at 331.47 261.62 90)
@@ -15701,9 +16071,9 @@
 		(at 325.12 262.89 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3b237f77-1ec7-4c5d-88b8-49d3c133c4c1")
 		(property "Reference" "SW33"
 			(at 318.77 261.62 90)
@@ -15930,9 +16300,9 @@
 		(at 312.42 128.27 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "402b7c7f-5595-4cd6-a11e-eb81060840c3")
 		(property "Reference" "SW14"
 			(at 306.07 127 90)
@@ -16161,9 +16531,9 @@
 		(at 337.82 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "43157dce-ccb5-4ce8-a848-aa238a70f1aa")
 		(property "Reference" "SW22"
 			(at 331.47 148.59 90)
@@ -16422,9 +16792,9 @@
 		(at 337.82 172.72 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "461f4397-4e13-4171-a6b3-99a293d8ecfb")
 		(property "Reference" "SW28"
 			(at 331.47 171.45 90)
@@ -16748,9 +17118,9 @@
 		(at 363.22 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4951a830-f922-45e3-b793-f6a24bba5489")
 		(property "Reference" "SW12"
 			(at 356.87 105.41 90)
@@ -16817,9 +17187,9 @@
 		(at 363.22 350.52 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4ae1cccc-0544-4cf8-af5a-34e763b850b4")
 		(property "Reference" "SW60"
 			(at 356.87 349.25 90)
@@ -16982,9 +17352,9 @@
 		(at 337.82 350.52 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4cc36fcc-fe56-4a61-93aa-3684d8167a09")
 		(property "Reference" "SW58"
 			(at 331.47 349.25 90)
@@ -17051,9 +17421,9 @@
 		(at 312.42 327.66 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4d0d35f5-f009-4111-af13-a179e9bb4c86")
 		(property "Reference" "SW50"
 			(at 306.07 326.39 90)
@@ -17120,9 +17490,9 @@
 		(at 299.72 172.72 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4d7adc7b-7d5f-47fc-be47-e79d4cce890f")
 		(property "Reference" "SW25"
 			(at 293.37 171.45 90)
@@ -17757,9 +18127,9 @@
 		(at 312.42 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5615cd19-568c-49a8-bd32-08e65c401085")
 		(property "Reference" "SW8"
 			(at 306.07 105.41 90)
@@ -17826,9 +18196,9 @@
 		(at 312.42 350.52 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5786e3b7-7cec-4ad1-8728-79ab27a8efca")
 		(property "Reference" "SW56"
 			(at 306.07 349.25 90)
@@ -18296,9 +18666,9 @@
 		(at 350.52 262.89 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "619863c2-8d86-48c7-b1d9-1f3d6d0cea09")
 		(property "Reference" "SW35"
 			(at 344.17 261.62 90)
@@ -18686,9 +19056,9 @@
 		(at 363.22 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6936d778-a3d5-4009-9b81-ef2debb26eb3")
 		(property "Reference" "SW24"
 			(at 356.87 148.59 90)
@@ -18877,9 +19247,9 @@
 		(at 337.82 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6f66e95c-6386-4486-9f74-dbe68f896783")
 		(property "Reference" "SW4"
 			(at 331.47 83.82 90)
@@ -19091,9 +19461,9 @@
 		(at 312.42 262.89 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "71b8639b-2535-4523-af15-9abd7959cca3")
 		(property "Reference" "SW32"
 			(at 306.07 261.62 90)
@@ -19227,9 +19597,9 @@
 		(at 312.42 172.72 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "71e2811f-9d5f-4fd4-ba86-10402bf68330")
 		(property "Reference" "SW26"
 			(at 306.07 171.45 90)
@@ -19392,9 +19762,9 @@
 		(at 234.95 193.04 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "72af21c1-0071-4b81-8612-971a10b1bc93")
 		(property "Reference" "R2"
 			(at 234.95 190.5 90)
@@ -19468,9 +19838,9 @@
 		(at 363.22 128.27 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "739646e6-54eb-4568-8ace-f58839985b55")
 		(property "Reference" "SW18"
 			(at 356.87 127 90)
@@ -19601,9 +19971,9 @@
 		(at 312.42 306.07 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "74655e89-4934-4572-b0f3-86653e381e94")
 		(property "Reference" "SW44"
 			(at 306.07 304.8 90)
@@ -19670,9 +20040,9 @@
 		(at 350.52 306.07 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "74b50a2e-8e46-45d8-b9a7-f845bc07cb27")
 		(property "Reference" "SW47"
 			(at 344.17 304.8 90)
@@ -19739,9 +20109,9 @@
 		(at 299.72 350.52 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7987cc56-178f-4eae-94fa-755e73a907ec")
 		(property "Reference" "SW55"
 			(at 293.37 349.25 90)
@@ -19884,9 +20254,9 @@
 		(at 299.72 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7e0e25b5-f2f0-41f2-b8b8-e58fc0618c10")
 		(property "Reference" "SW7"
 			(at 293.37 105.41 90)
@@ -20049,9 +20419,9 @@
 		(at 325.12 327.66 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7eec7649-9d38-4708-88db-189ff259a5bd")
 		(property "Reference" "SW51"
 			(at 318.77 326.39 90)
@@ -20573,9 +20943,9 @@
 		(at 234.95 365.76 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "874663a8-8daa-42df-acc5-bae84dcfe5d5")
 		(property "Reference" "JP2"
 			(at 234.95 363.22 0)
@@ -20937,9 +21307,9 @@
 		(at 299.72 128.27 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8afabc14-3aad-4a77-a54b-6325ad72a921")
 		(property "Reference" "SW13"
 			(at 293.37 127 90)
@@ -21006,9 +21376,9 @@
 		(at 325.12 128.27 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8b733642-3e29-4dcd-b73f-367090bef31a")
 		(property "Reference" "SW15"
 			(at 318.77 127 90)
@@ -21247,9 +21617,9 @@
 		(at 312.42 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8fe93955-a2ee-4491-8f5c-5c00bad65063")
 		(property "Reference" "SW2"
 			(at 306.07 83.82 90)
@@ -21316,9 +21686,9 @@
 		(at 363.22 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "90cd69fb-2753-410f-a31e-edd56c14fb49")
 		(property "Reference" "SW6"
 			(at 356.87 83.82 90)
@@ -21452,9 +21822,9 @@
 		(at 312.42 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "933c9c3e-574d-41c3-89ce-03ca46f2e8a4")
 		(property "Reference" "SW20"
 			(at 306.07 148.59 90)
@@ -21521,9 +21891,9 @@
 		(at 299.72 327.66 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9474e29a-89ef-4317-88a9-1248cc00be0e")
 		(property "Reference" "SW49"
 			(at 293.37 326.39 90)
@@ -21959,9 +22329,9 @@
 		(at 325.12 350.52 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9dde7986-214f-4a76-b1d1-b90528eda763")
 		(property "Reference" "SW57"
 			(at 318.77 349.25 90)
@@ -22548,9 +22918,9 @@
 		(at 350.52 172.72 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a6f4c478-be31-4fd0-b911-4541edf19e3b")
 		(property "Reference" "SW29"
 			(at 344.17 171.45 90)
@@ -23018,9 +23388,9 @@
 		(at 337.82 128.27 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "aeebab66-5fc4-4320-8412-79771c9cca9a")
 		(property "Reference" "SW16"
 			(at 331.47 127 90)
@@ -23135,6 +23505,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C5213747"
+			(at 158.75 341.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4547cb41-5c34-4551-bb20-36815daefea0")
 		)
@@ -23167,9 +23546,9 @@
 		(at 299.72 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b393b62a-24cb-4e5a-ae0e-4e569802f211")
 		(property "Reference" "SW1"
 			(at 293.37 83.82 90)
@@ -23236,9 +23615,9 @@
 		(at 350.52 327.66 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b3de26ab-1e5d-4c83-a9cc-e6af4940e794")
 		(property "Reference" "SW53"
 			(at 344.17 326.39 90)
@@ -23371,9 +23750,9 @@
 		(at 299.72 262.89 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b67c98bc-6b46-4303-aed6-998a4dbd6d77")
 		(property "Reference" "SW31"
 			(at 293.37 261.62 90)
@@ -23926,9 +24305,9 @@
 		(at 350.52 284.48 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "bc83716d-f9d0-49bb-b2ba-c5ff270a9562")
 		(property "Reference" "SW41"
 			(at 344.17 283.21 90)
@@ -23995,9 +24374,9 @@
 		(at 325.12 172.72 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "bcf7e8d0-8508-4fa6-a326-f1d305100c32")
 		(property "Reference" "SW27"
 			(at 318.77 171.45 90)
@@ -24418,9 +24797,9 @@
 		(at 350.52 128.27 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c129e17b-38c8-405c-aebe-c11a5598466d")
 		(property "Reference" "SW17"
 			(at 344.17 127 90)
@@ -24825,9 +25204,9 @@
 		(at 299.72 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c587d3bc-818a-4485-a50d-8dc6ae23820b")
 		(property "Reference" "SW19"
 			(at 293.37 148.59 90)
@@ -25072,9 +25451,9 @@
 		(at 337.82 327.66 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c7793b8a-aa6c-4884-9830-683acbfd570d")
 		(property "Reference" "SW52"
 			(at 331.47 326.39 90)
@@ -25233,6 +25612,7 @@
 		)
 	)
 	(symbol
+		(lib_name "JOYCON_JOYSTICK_1")
 		(lib_id "symbols:JOYCON_JOYSTICK")
 		(at 158.75 163.83 0)
 		(unit 1)
@@ -25277,6 +25657,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 158.75 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5213747"
 			(at 158.75 163.83 0)
 			(effects
 				(font
@@ -25413,9 +25802,9 @@
 		(at 325.12 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "cb401e7a-4d23-40cf-be16-621c4e41dae0")
 		(property "Reference" "SW9"
 			(at 318.77 105.41 90)
@@ -25965,9 +26354,9 @@
 		(at 363.22 327.66 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d1f98fe3-c5c4-4ff6-baa2-3e582f8924f9")
 		(property "Reference" "SW54"
 			(at 356.87 326.39 90)
@@ -26492,9 +26881,9 @@
 		(at 325.12 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "dc38ed1c-93a8-47c8-ab34-acd070cf4309")
 		(property "Reference" "SW21"
 			(at 318.77 148.59 90)
@@ -26561,9 +26950,9 @@
 		(at 299.72 284.48 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "de007559-8689-4750-abb9-5a3aaf2944ca")
 		(property "Reference" "SW37"
 			(at 293.37 283.21 90)
@@ -26694,9 +27083,9 @@
 		(at 350.52 350.52 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "df371f23-5176-461e-bf18-cb66b21e6a02")
 		(property "Reference" "SW59"
 			(at 344.17 349.25 90)
@@ -26763,9 +27152,9 @@
 		(at 363.22 306.07 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "dfaa0da5-0f12-4acf-8be7-0a28375dcff1")
 		(property "Reference" "SW48"
 			(at 356.87 304.8 90)
@@ -27194,6 +27583,70 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
+		(at 444.5 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e51ef1de-e7a5-4153-a4ed-70cbc3500a54")
+		(property "Reference" "H12"
+			(at 447.04 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ToolingHole"
+			(at 447.04 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:tooling_hole"
+			(at 444.5 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 444.5 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 444.5 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "undead_split"
+				(path "/e4506e6a-c600-4395-b1e6-5268fdabb240"
+					(reference "H12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
 		(at 444.5 298.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27335,13 +27788,77 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 363.22 284.48 270)
+		(lib_id "Mechanical:MountingHole")
+		(at 444.5 323.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6e41429-9f88-4e7c-8275-f6211310be50")
+		(property "Reference" "H14"
+			(at 447.04 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ToolingHole"
+			(at 447.04 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:tooling_hole"
+			(at 444.5 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 444.5 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 444.5 323.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "undead_split"
+				(path "/e4506e6a-c600-4395-b1e6-5268fdabb240"
+					(reference "H14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 363.22 284.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
 		(uuid "e7510aba-cd92-4e21-a087-bdf54fe8c525")
 		(property "Reference" "SW42"
 			(at 356.87 283.21 90)
@@ -27692,6 +28209,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 444.5 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edb40a2f-2b16-46aa-a1d9-206a0cd7cca0")
+		(property "Reference" "H10"
+			(at 447.04 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ToolingHole"
+			(at 447.04 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:tooling_hole"
+			(at 444.5 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 444.5 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 444.5 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "undead_split"
+				(path "/e4506e6a-c600-4395-b1e6-5268fdabb240"
+					(reference "H10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "symbols:1N4148")
 		(at 295.91 121.92 180)
 		(unit 1)
@@ -27788,13 +28369,77 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 337.82 106.68 270)
+		(lib_id "Mechanical:MountingHole")
+		(at 419.1 336.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3283b21-eb9c-4c0c-b964-6a88c4993a7c")
+		(property "Reference" "H15"
+			(at 421.64 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ToolingHole"
+			(at 421.64 337.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:tooling_hole"
+			(at 419.1 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 419.1 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 419.1 336.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "undead_split"
+				(path "/e4506e6a-c600-4395-b1e6-5268fdabb240"
+					(reference "H15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 337.82 106.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
 		(uuid "f4224c72-a407-4613-af14-9487be897f01")
 		(property "Reference" "SW10"
 			(at 331.47 105.41 90)
@@ -28053,9 +28698,9 @@
 		(at 337.82 284.48 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f6998c05-b0b2-4a45-8ee2-42c4b9a6cf2a")
 		(property "Reference" "SW40"
 			(at 331.47 283.21 90)

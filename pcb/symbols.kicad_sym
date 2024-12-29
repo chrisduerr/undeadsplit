@@ -1319,6 +1319,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C5213747"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "JOYCON_JOYSTICK_1_1"
 			(rectangle
 				(start -6.35 6.35)
