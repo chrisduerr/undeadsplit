@@ -78,6 +78,15 @@
 				(hide yes)
 			)
 		)
+		(property "FT Rotation Offset" "180"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "diode"
 			(at 0 0 0)
 			(effects
@@ -223,7 +232,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C219065"
+		(property "JLCPCB Part #" "C44854"
 			(at 0 0 0)
 			(effects
 				(font
