@@ -61387,7 +61387,7 @@
 		(layer "Edge.Cuts")
 		(uuid "d999d031-2551-458a-920d-372cac72b9d6")
 	)
-	(gr_text "Undead Split v2\nhttps://github.com/chrisduerr/undeadsplit"
+	(gr_text "Undead Split v3\nhttps://github.com/chrisduerr/undeadsplit"
 		(at 304.583462 196.938198 0)
 		(layer "B.SilkS")
 		(uuid "262fd775-b207-473a-9097-dfb3554b47b8")
@@ -61399,7 +61399,7 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "Undead Split v2\nhttps://github.com/chrisduerr/undeadsplit"
+	(gr_text "Undead Split v3\nhttps://github.com/chrisduerr/undeadsplit"
 		(at 121.833462 196.938198 0)
 		(layer "B.SilkS")
 		(uuid "f84d0acf-7a1a-4678-ae3d-6ff8c373756f")
