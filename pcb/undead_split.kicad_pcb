@@ -2653,6 +2653,7 @@
 		(property "Reference" "Y1"
 			(at 0 -3.05 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "8d75e23a-2aa9-4ebe-a9a7-5bb8700995e6")
 			(effects
 				(font
@@ -34328,9 +34329,9 @@
 		(descr "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal")
 		(tags "USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120")
 		(property "Reference" "J4"
-			(at 0 -5.5 180)
-			(unlocked yes)
-			(layer "F.SilkS")
+			(at 0 -4.182 180)
+			(layer "F.Fab")
+			(hide yes)
 			(uuid "7ce1fc93-04ac-4007-a364-790a51373f4d")
 			(effects
 				(font
@@ -34340,8 +34341,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0"
-			(at 0 5 180)
-			(unlocked yes)
+			(at 0 6.318 180)
 			(layer "F.Fab")
 			(uuid "3c3d55de-01e8-4c5d-aaa3-801b59824512")
 			(effects
@@ -34351,8 +34351,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 0 0 180)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_SHOU-HAN-TYPE-C16PIN_C393939.pdf"
+			(at 0 1.318 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -34365,7 +34365,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 180)
+			(at 0 1.318 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -34373,19 +34373,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C393939"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "67198721-6424-4a31-80b9-cac621281c06")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -34403,7 +34390,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "227e1b68-f4d0-475f-acf3-5a03b173ed99")
+			(uuid "f700d3b0-92e5-4ea2-aff1-f7f2accb1a48")
 		)
 		(fp_line
 			(start -4.67 1.218)
@@ -34413,7 +34400,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f96392a5-2770-439d-86d3-6554b55f80a1")
+			(uuid "7145e7e4-a368-452b-acf8-1bd6c19e1815")
 		)
 		(fp_line
 			(start 5 4.963)
@@ -34423,7 +34410,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "9eac94c4-b2ac-47c7-9c36-10fee7b63751")
+			(uuid "1deecc5e-3b89-4f09-87af-8b12779cd2cb")
 		)
 		(fp_rect
 			(start -5.32 -3.442)
@@ -34434,7 +34421,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "63636cd8-a89f-4c64-9b94-ba8275829728")
+			(uuid "a4fb99ef-7d3b-4802-9be5-b63d1d74b25e")
 		)
 		(fp_rect
 			(start -4.47 -2.387)
@@ -34445,10 +34432,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "f49675af-df3e-4033-bf8d-4d1d308ed5b0")
+			(uuid "807795d3-2736-4900-a84f-efc5e9a387f2")
 		)
 		(fp_text user "PCB Edge"
-			(at 0 3.1 180)
+			(at 0 4.418 180)
 			(unlocked yes)
 			(layer "Dwgs.User")
 			(uuid "cdcbf450-4ff6-486c-a508-349af1b88296")
@@ -34460,7 +34447,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 180)
+			(at 0 1.318 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "2fc06696-6555-45d1-8b4b-289bd14fe484")
@@ -34476,14 +34463,14 @@
 			(size 0.65 0.65)
 			(drill 0.65)
 			(layers "*.Cu" "*.Mask")
-			(uuid "03eca7d6-af97-4157-bb3a-b7e3c0ce8a16")
+			(uuid "58b8239e-19ab-4244-84bb-82b8d64352f7")
 		)
 		(pad "" np_thru_hole circle
 			(at 2.89 -1.287 180)
 			(size 0.65 0.65)
 			(drill 0.65)
 			(layers "*.Cu" "*.Mask")
-			(uuid "cd147a48-d278-42a9-883e-16c5aafa14ae")
+			(uuid "76a7ccb0-339b-4529-bbbe-070315f918ac")
 		)
 		(pad "A1" smd roundrect
 			(at -3.2 -2.362 180)
@@ -34665,7 +34652,7 @@
 			(net 147 "GNDA")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "9d404415-c04a-479b-9eaf-d6325599cb4b")
+			(uuid "d015bd2f-0a9c-45c6-b857-d17c51a076c6")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -1.787 180)
@@ -34676,7 +34663,7 @@
 			(net 147 "GNDA")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "6997385c-837c-4f2a-ab82-49d59235b64f")
+			(uuid "d015bd2f-0a9c-45c6-b857-d17c51a076c6")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 2.363 180)
@@ -34687,7 +34674,7 @@
 			(net 147 "GNDA")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "17485803-89b0-4e83-a98b-a09f8a334519")
+			(uuid "d015bd2f-0a9c-45c6-b857-d17c51a076c6")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.wrl"
@@ -36709,9 +36696,9 @@
 		(descr "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal")
 		(tags "USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120")
 		(property "Reference" "J1"
-			(at 0 -5.5 180)
-			(unlocked yes)
-			(layer "F.SilkS")
+			(at 0 -4.182 180)
+			(layer "F.Fab")
+			(hide yes)
 			(uuid "d0dae73c-9ee1-4f8b-99f6-fa992f748fce")
 			(effects
 				(font
@@ -36721,8 +36708,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0"
-			(at 0 5 180)
-			(unlocked yes)
+			(at 0 6.318 180)
 			(layer "F.Fab")
 			(uuid "580c7928-6003-481b-8237-e002e6d9c65b")
 			(effects
@@ -36732,8 +36718,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 0 0 180)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_SHOU-HAN-TYPE-C16PIN_C393939.pdf"
+			(at 0 1.318 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -36746,7 +36732,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 180)
+			(at 0 1.318 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -36754,19 +36740,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C393939"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "266d2ca2-9a1b-4c15-aafe-cfae1e86d8eb")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -36784,7 +36757,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8974c23c-ccf1-4923-afb3-ebc2cbe02b03")
+			(uuid "0e9e033a-27ba-43e7-a798-2c663804ae3d")
 		)
 		(fp_line
 			(start -4.67 1.218)
@@ -36794,7 +36767,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "102dde61-645e-4463-a495-af38eae75d68")
+			(uuid "c922659e-6f2e-4eb8-9080-b4b4cca76f70")
 		)
 		(fp_line
 			(start 5 4.963)
@@ -36804,7 +36777,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "4a5e7d6c-a0e7-4b97-b3f4-b1a409452493")
+			(uuid "1b6d89df-f9bb-4ef2-a8d8-f02c2b37efab")
 		)
 		(fp_rect
 			(start -5.32 -3.442)
@@ -36815,7 +36788,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "0b199e45-669f-4f77-9459-d179785b8f35")
+			(uuid "493c9739-6e2c-4bbc-8d3f-f46f22e35a9b")
 		)
 		(fp_rect
 			(start -4.47 -2.387)
@@ -36826,10 +36799,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "40c99ec6-2b91-412b-a058-0a73b4a13d7a")
+			(uuid "98296904-a660-4c7f-9acd-40c79582152b")
 		)
 		(fp_text user "PCB Edge"
-			(at 0 3.1 180)
+			(at 0 4.418 180)
 			(unlocked yes)
 			(layer "Dwgs.User")
 			(uuid "2918af5b-34fb-42f1-b912-da0ec5889353")
@@ -36841,7 +36814,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 180)
+			(at 0 1.318 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "20b9b9a5-996a-48e8-b4ca-598b89960c78")
@@ -36857,14 +36830,14 @@
 			(size 0.65 0.65)
 			(drill 0.65)
 			(layers "*.Cu" "*.Mask")
-			(uuid "9692a069-d367-45bf-aa1d-8ac9deeb2f40")
+			(uuid "6d212422-6edb-4825-9905-873b4bb4a24f")
 		)
 		(pad "" np_thru_hole circle
 			(at 2.89 -1.287 180)
 			(size 0.65 0.65)
 			(drill 0.65)
 			(layers "*.Cu" "*.Mask")
-			(uuid "a53d54fc-6a5b-4b16-a557-62eb9c73d6e8")
+			(uuid "9ef1ca01-579a-4a10-822e-cfbac5237dea")
 		)
 		(pad "A1" smd roundrect
 			(at -3.2 -2.362 180)
@@ -37046,7 +37019,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "315ea7e1-4802-4e3a-a096-a0e7e243967f")
+			(uuid "b068d8c6-3d49-425e-9b47-25a52f4eefa7")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -1.787 180)
@@ -37057,7 +37030,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "32e21972-76bb-4f14-90d1-ae03f3ddc406")
+			(uuid "b068d8c6-3d49-425e-9b47-25a52f4eefa7")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 2.363 180)
@@ -37068,7 +37041,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "a5b891b7-1cb3-4e2e-834f-1660e28bab4f")
+			(uuid "b068d8c6-3d49-425e-9b47-25a52f4eefa7")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.wrl"
@@ -41043,9 +41016,9 @@
 		(descr "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal")
 		(tags "USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120")
 		(property "Reference" "J2"
-			(at 0 -5.5 180)
-			(unlocked yes)
-			(layer "F.SilkS")
+			(at 0 -4.182 180)
+			(layer "F.Fab")
+			(hide yes)
 			(uuid "e41751d1-6c59-42e0-89e5-a02b0a82faad")
 			(effects
 				(font
@@ -41055,8 +41028,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0"
-			(at 0 5 180)
-			(unlocked yes)
+			(at 0 6.318 180)
 			(layer "F.Fab")
 			(uuid "ad3452fc-12ba-428f-99a0-d783c0309e3d")
 			(effects
@@ -41066,8 +41038,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 0 0 180)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_SHOU-HAN-TYPE-C16PIN_C393939.pdf"
+			(at 0 1.318 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -41080,7 +41052,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 180)
+			(at 0 1.318 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -41088,19 +41060,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C393939"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fefbcae5-6d3e-459f-8ff5-c39f5030a2c9")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -41118,7 +41077,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4e89db9b-7320-4b7b-9fc8-61c0d6b7ca0a")
+			(uuid "c443d755-9ad0-453d-8f9f-95b0bb6825ba")
 		)
 		(fp_line
 			(start -4.67 1.218)
@@ -41128,7 +41087,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0dfe5a89-f87b-4258-bdc2-1438e1fad971")
+			(uuid "552d7634-82ad-4412-8365-3a04a66675ed")
 		)
 		(fp_line
 			(start 5 4.963)
@@ -41138,7 +41097,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "c2e45726-e7c0-48c6-8ab2-306bac3d7ec6")
+			(uuid "9994467d-0e9d-4e8c-b84a-105ca40bed09")
 		)
 		(fp_rect
 			(start -5.32 -3.442)
@@ -41149,7 +41108,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "228baa8f-2ce4-42ba-860e-1ed0aeeff12a")
+			(uuid "ab05625e-f53d-4403-a5d7-5bb76f460d16")
 		)
 		(fp_rect
 			(start -4.47 -2.387)
@@ -41160,10 +41119,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "caac89ed-549d-45a5-b2a8-70ea96faa331")
+			(uuid "c98426f0-f83c-4158-8816-f391a4073d82")
 		)
 		(fp_text user "PCB Edge"
-			(at 0 3.1 180)
+			(at 0 4.418 180)
 			(unlocked yes)
 			(layer "Dwgs.User")
 			(uuid "581d02de-b98f-451b-b2a5-110fe8609afe")
@@ -41175,7 +41134,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 180)
+			(at 0 1.318 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "920ea4ad-2646-44d8-9dce-61347816303d")
@@ -41191,14 +41150,14 @@
 			(size 0.65 0.65)
 			(drill 0.65)
 			(layers "*.Cu" "*.Mask")
-			(uuid "ce1ab1ae-c895-4c1a-8024-055aa0e7f2e9")
+			(uuid "7a9d5ac0-b2cd-465a-85bb-787b0a15f920")
 		)
 		(pad "" np_thru_hole circle
 			(at 2.89 -1.287 180)
 			(size 0.65 0.65)
 			(drill 0.65)
 			(layers "*.Cu" "*.Mask")
-			(uuid "c182b026-0d9c-49ee-acb0-019fc2169b17")
+			(uuid "861c1fb9-b621-4c22-be3a-a0e0ee5a1a48")
 		)
 		(pad "A1" smd roundrect
 			(at -3.2 -2.362 180)
@@ -41380,7 +41339,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "848a5b2d-f7bd-448f-9abc-b74c5601fda6")
+			(uuid "e3767042-c511-41a1-8afc-27549f24a15c")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -1.787 180)
@@ -41391,7 +41350,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "6493d9ba-f7b5-4736-8673-81ccdb110efd")
+			(uuid "e3767042-c511-41a1-8afc-27549f24a15c")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 2.363 180)
@@ -41402,7 +41361,7 @@
 			(net 2 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "571c9619-c7a3-48bb-993e-d207a030208b")
+			(uuid "e3767042-c511-41a1-8afc-27549f24a15c")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.wrl"
@@ -44847,9 +44806,9 @@
 		(descr "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal")
 		(tags "USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120")
 		(property "Reference" "J3"
-			(at 0 -5.5 180)
-			(unlocked yes)
-			(layer "F.SilkS")
+			(at 0 -4.182 180)
+			(layer "F.Fab")
+			(hide yes)
 			(uuid "f2335a9d-f842-4ba0-b356-14ecf35e2f73")
 			(effects
 				(font
@@ -44859,8 +44818,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0"
-			(at 0 5 180)
-			(unlocked yes)
+			(at 0 6.318 180)
 			(layer "F.Fab")
 			(uuid "8e5d8c1e-88a3-43a7-9689-b45cc9e6edfd")
 			(effects
@@ -44870,8 +44828,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 0 0 180)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_SHOU-HAN-TYPE-C16PIN_C393939.pdf"
+			(at 0 1.318 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -44884,7 +44842,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 180)
+			(at 0 1.318 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -44892,19 +44850,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C393939"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "711942cc-b61f-4fea-bc51-ca4e03cbe696")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -44922,7 +44867,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "05e5f4b7-1bf9-427c-b15a-bf2fe787fcde")
+			(uuid "0c2fd45d-0836-46bc-b845-87daab733f36")
 		)
 		(fp_line
 			(start -4.67 1.218)
@@ -44932,7 +44877,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c0447914-ffff-46ad-aef0-3df1d43118be")
+			(uuid "826db787-6836-4f88-b1ca-6dec827a45bc")
 		)
 		(fp_line
 			(start 5 4.963)
@@ -44942,7 +44887,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "bb391adc-76e5-416a-a4ef-eded2ee97ea9")
+			(uuid "068fd231-c485-4348-885f-134e45fa70b1")
 		)
 		(fp_rect
 			(start -5.32 -3.442)
@@ -44953,7 +44898,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "a71077c9-986a-4fff-a1b2-00ba5efc3027")
+			(uuid "e21bf573-e539-416c-bb17-bb9ef03b27ff")
 		)
 		(fp_rect
 			(start -4.47 -2.387)
@@ -44964,10 +44909,10 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "25b528d0-f0c9-4af9-9b0e-554e495c25cd")
+			(uuid "79b02ae3-381f-40fe-9111-1d0cacef4db5")
 		)
 		(fp_text user "PCB Edge"
-			(at 0 3.1 180)
+			(at 0 4.418 180)
 			(unlocked yes)
 			(layer "Dwgs.User")
 			(uuid "540361e0-55f4-4db9-8899-900ca60b00b0")
@@ -44979,7 +44924,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 180)
+			(at 0 1.318 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "c9ebcce5-f368-4910-bd21-6cc1025eca9b")
@@ -44995,14 +44940,14 @@
 			(size 0.65 0.65)
 			(drill 0.65)
 			(layers "*.Cu" "*.Mask")
-			(uuid "9a68b17b-9de5-4c68-95e3-1388e400c94f")
+			(uuid "ba5dee6d-859d-41b0-913a-23aec5eda715")
 		)
 		(pad "" np_thru_hole circle
 			(at 2.89 -1.287 180)
 			(size 0.65 0.65)
 			(drill 0.65)
 			(layers "*.Cu" "*.Mask")
-			(uuid "87c245a1-d2fe-42fc-82be-f3aa5295afea")
+			(uuid "0717a084-637a-47ad-8751-ad788e8775e4")
 		)
 		(pad "A1" smd roundrect
 			(at -3.2 -2.362 180)
@@ -45184,7 +45129,7 @@
 			(net 147 "GNDA")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "ef037d75-840a-4dce-bcc0-e54b48272d07")
+			(uuid "bf78305d-bbf9-4c2a-9f82-daba254df678")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -1.787 180)
@@ -45195,7 +45140,7 @@
 			(net 147 "GNDA")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "e9e761f6-49d2-4faf-8093-7cf478fc9983")
+			(uuid "bf78305d-bbf9-4c2a-9f82-daba254df678")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 2.363 180)
@@ -45206,7 +45151,7 @@
 			(net 147 "GNDA")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "4bc4cfaf-2adf-41ac-94c2-5ccf6b25fa88")
+			(uuid "bf78305d-bbf9-4c2a-9f82-daba254df678")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.wrl"
@@ -53223,6 +53168,7 @@
 		(property "Reference" "Y2"
 			(at 0 -3.05 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "fa6c6b10-7aa3-4c2d-8663-521df1e8c092")
 			(effects
 				(font
@@ -54918,6 +54864,7 @@
 		(property "Reference" "JP1"
 			(at 0 1.8 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "a851201a-0666-411f-a7e5-e40dbdefee79")
 			(effects
 				(font
@@ -55082,6 +55029,7 @@
 		(property "Reference" "JP2"
 			(at 0 1.8 180)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "84bf73e5-1aef-417f-a7cf-c20ba6a5a514")
 			(effects
 				(font
